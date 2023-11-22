@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import heroIllustration from '@/public/assets/hero-illustration.jpg'
+import Nav from './Nav'
 
 const HeroSection = () => {
   return (
@@ -17,12 +18,12 @@ const HeroSection = () => {
         </p>
         <div className='flex gap-3 flex-col sm:flex-row mt-7'>
           <Link
-            className='rounded-xl bg-blue py-3 px-8 text-white text-sm sm:text-md'
-            href='/auth/signup'
+            className='rounded-xl bg-[#e4e7ea] py-3 px-8 text-[#0F2B48] text-sm sm:text-md'
+            href='../Merchant'
           >
             Start Shipping
           </Link>
-          <button className='rounded-xl border bg-black/[0.05] py-3 px-8 text-gray-500 text-sm sm:text-md outline-none'>
+          <button className='rounded-xl border bg-[#0F2B48] py-3 px-8 text-white text-sm sm:text-md outline-none'>
             <a href='#get-quote'>Get A Quote</a>
           </button>
         </div>

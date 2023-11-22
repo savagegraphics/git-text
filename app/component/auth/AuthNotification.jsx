@@ -1,11 +1,7 @@
 import React from 'react'
 
 const AuthNotification = ({ error, success }) => {
-  return (
-    <div>
-        
-    </div>
-  )
+  return <div>,ggcvbn</div>
 }
 
 export default AuthNotification

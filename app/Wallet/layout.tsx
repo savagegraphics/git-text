@@ -23,7 +23,7 @@ export default function RootLayout ({
           <div className='mx-auto'>
             <div className='bg-white'>{/* <AddressBar /> */}</div>
             <div className=' shadow-lg shadow-black/20'>
-              <div className='lg:mt-0 md:mt-0 mt-10'>{children}</div>
+              <div className='lg:mt-0 md:mt-0 mt-10 h-[100vh]'>{children}</div>
             </div>
           </div>
         </div>

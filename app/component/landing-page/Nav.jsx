@@ -14,7 +14,7 @@ const Nav = () => {
   const [toggle, setToggle] = useState(false)
   return (
     <nav className='px-[30px] sm:px-[45px] md:px-[60px] lg:px-[120px] flex items-center justify-between py-3 md:py-4 font-sniglet'>
-      <Link href='/' className='w-28 sm:w-32 md:w-36'>
+      <Link href='../Merchant' className='w-28 sm:w-32 md:w-36'>
         <Image src={brandLogo} alt='brand_logo' className='w-full' />
       </Link>
       <ul className='hidden sm:flex gap text-grey-80 gap-11 md:gap-24 sm:text-sm md:text-md'>
@@ -29,8 +29,8 @@ const Nav = () => {
         </li>
       </ul>
       <Link
-        className='hidden sm:block rounded-lg text-white text-sm md:text-md bg-blue px-5 py-2 cursor-pointer'
-        href='/auth/signup'
+        className='hidden sm:block rounded-lg text-white text-sm md:text-md bg-[#0F2B48] px-5 py-2 cursor-pointer'
+        href='../Merchant'
       >
         Get Started
       </Link>
@@ -59,8 +59,8 @@ const Nav = () => {
             </li>
           </ul>
           <Link
-            className='rounded-lg text-white text-sm md:text-md bg-blue hover:bg-transparent  hover:border-white hover:border-1 px-4 py-2 cursor-pointer text-center'
-            href='/auth/signup'
+            className='rounded-lg text-white text-sm md:text-md bg-[#0F2B48] hover:bg-[#0F2B48]  hover:border-white hover:border-1 px-4 py-2 cursor-pointer text-center'
+            href='../Merchant'
           >
             Get Started
           </Link>
