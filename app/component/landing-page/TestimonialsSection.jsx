@@ -48,8 +48,8 @@ function TestimonialsSection ({ testimonials }) {
         breakPoints={breakPoints}
         itemPadding={[5, 12]}
       >
-        {testimonials.map(testimonial => (
-          <TestimonialCard testimonial={testimonial} />
+        {testimonials.map((testimonial, index) => (
+          <TestimonialCard key={index} testimonial={testimonial} />
         ))}
       </Carousel>
     </div>
