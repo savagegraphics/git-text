@@ -1,0 +1,10 @@
+<svg width="50" height="48" viewBox="0 0 50 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="mdi:truck-delivery" clip-path="url(#clip0_147_250)">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M0.25 11C0.25 10.2044 0.566071 9.44129 1.12868 8.87868C1.69129 8.31607 2.45435 8 3.25 8H19.664L26.25 14.586V35C26.25 35.7956 25.9339 36.5587 25.3713 37.1213C24.8087 37.6839 24.0457 38 23.25 38H3.25C2.45435 38 1.69129 37.6839 1.12868 37.1213C0.566071 36.5587 0.25 35.7956 0.25 35V11ZM6.25 16H12.25V18H6.25V16ZM20.25 22H6.25V24H20.25V22ZM20.25 28H14.25V30H20.25V28Z" fill="#0F2B48"/>
+</g>
+<defs>
+<clipPath id="clip0_147_250">
+<rect width="49" height="48" fill="white" transform="translate(0.25)"/>
+</clipPath>
+</defs>
+</svg>
