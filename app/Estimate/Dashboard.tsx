@@ -1,6 +1,6 @@
 'use client;'
 import React from 'react'
-import Estimate from '@/components/component/estimate/estimatee'
+import Estimate from '@/components/component/estimate/estimated'
 
 type Props = {}
 

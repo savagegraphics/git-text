@@ -41,7 +41,7 @@ export default function estimatee () {
                   placeholder='Delivery details'
                   type='text'
                 />
-                <Select className='w-full border border-gray-300 dark:border-gray-700 rounded-lg px-4 py-3'>
+                <Select>
                   <SelectTrigger className='w-full'>
                     <SelectValue placeholder='Shipment type' />
                   </SelectTrigger>
