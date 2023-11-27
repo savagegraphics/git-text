@@ -18,7 +18,7 @@ export default function fulfiling () {
     <div className='flex flex-col min-h-screen bg-white dark:bg-zinc-900'>
       <header className='flex items-center justify-between px-8 py-4 border-b border-zinc-200 dark:border-zinc-800'>
         <h1 className='text-2xl font-bold text-zinc-900 dark:text-zinc-50'>
-          Happie's Fulfillment Center
+          Happie&apos;s Fulfillment Center
         </h1>
         <Button variant='secondary'>Sign out</Button>
       </header>
@@ -102,7 +102,7 @@ export default function fulfiling () {
       </main>
       <footer className='flex items-center justify-center py-4 bg-zinc-100 dark:bg-zinc-800'>
         <p className='text-center text-zinc-500 dark:text-zinc-400'>
-          © 2023 Happie's Fulfillment Center
+          © 2023 Happie&apos;s Fulfillment Center
         </p>
       </footer>
     </div>
