@@ -15,7 +15,6 @@ import {
 } from '@/components/ui/table'
 import { useState } from 'react'
 import Transaction from '../component/wallet/Transaction'
-import Withdraw from '../component/wallet/Withdraw'
 import AddFund from '../component/wallet/AddFund'
 
 export default function Wallet () {
@@ -74,17 +73,6 @@ export default function Wallet () {
               >
                 Add Funds
               </Link>
-              <Link
-                className={`flex items-center gap-3 rounded-lg px-3 py-2 text-zinc-500 transition-all ${
-                  currentPage === 'withdrawFunds'
-                    ? 'text-zinc-900 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50'
-                    : 'hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50'
-                }`}
-                href='#'
-                onClick={() => handleClick('withdrawFunds')}
-              >
-                Withdraw Funds
-              </Link>
             </nav>
           </div>
         </div>
@@ -92,7 +80,6 @@ export default function Wallet () {
       <div className='flex-1 overflow-auto py-2'>
         {currentPage === 'transactions' && <Transaction />}
         {currentPage === 'addFunds' && <AddFund />}
-        {currentPage === 'withdrawFunds' && <Withdraw />}
       </div>
     </div>
   )

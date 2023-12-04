@@ -14,11 +14,6 @@ export const demos: { name: string; items: Item[] }[] = [
         icon: '/nextsvg/Merchant.svg'
       },
       {
-        name: 'Add Products',
-        slug: 'Products',
-        icon: 'nextsvg/Products.svg'
-      },
-      {
         name: 'Deliveries',
         slug: 'Deliveries',
         icon: 'nextsvg/truck.svg'
@@ -39,19 +34,9 @@ export const demos: { name: string; items: Item[] }[] = [
         icon: 'nextsvg/Estimate.svg'
       },
       {
-        name: 'International',
-        slug: 'International',
-        icon: 'nextsvg/International.svg'
-      },
-      {
         name: 'Track Shipment',
         slug: 'Tracking',
         icon: 'nextsvg/Shipment.svg'
-      },
-      {
-        name: 'Invite & Earn',
-        slug: 'Earn',
-        icon: 'nextsvg/Earn.svg'
       },
       {
         name: 'Log Out',

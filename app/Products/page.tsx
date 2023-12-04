@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
-import Delivery from './Delivery'
-import Shippings from './Shippings'
+import Delivery from '../Fulfilment/Delivery'
+import Shippings from '../Fulfilment/Shippings'
 import Shipment from './Shipment'
 
 type Props = {}

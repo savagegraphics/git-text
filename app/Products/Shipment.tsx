@@ -1,8 +1,7 @@
 import React from 'react'
 import OneGrid from '@/app/Merchant/OneGrid'
-import Delivery from './Delivery'
-import Shippings from './Shippings'
-import Header from './Header'
+import Delivery from '../Fulfilment/Delivery'
+import Header from '../Fulfilment/Header'
 
 type Props = {}
 
@@ -15,7 +14,6 @@ const Shipment = (props: Props) => {
       <div className='container px-6 py-2 mx-auto'>
         <div className='lg:flex lg:-mx-6'>
           <div className='lg:w-3/4 lg:px-6 lg:mt-0 mt-4'>
-            <Shippings />
             <Delivery />
           </div>
 

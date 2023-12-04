@@ -1,14 +1,21 @@
 import React from 'react'
-import Home from '@/components/component/fulfilment/pricing'
-import Nav from '@/components/component/fulfilment/nav'
+import Link from 'next/link'
+import Shippings from './Shippings'
+import Delivery from './Delivery'
+import Header from './Header'
 
 type Props = {}
 
 const History = (props: Props) => {
   return (
-    <div>
-      <Home />
-      <Nav />
+    <div className=''>
+      <div className='hidden md:block'>
+        <Header />
+      </div>
+      <div className='lg:m-12 m-6'>
+        <Shippings />
+        <Delivery />
+      </div>
     </div>
   )
 }

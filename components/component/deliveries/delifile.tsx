@@ -14,9 +14,9 @@ import {
   Table
 } from '@/components/ui/table'
 import { useState } from 'react'
-import Deliver from './deliva'
+import Deliver from '@/app/Deliveries/Table'
 import Personnel from './personnel'
-import Routes from './deliroutetwo'
+import Routes from './route'
 import Reports from './reports'
 
 export default function Wallet () {
@@ -75,28 +75,6 @@ export default function Wallet () {
               >
                 Delivery Routes
               </Link>
-              <Link
-                className={`flex items-center gap-3 rounded-lg px-3 py-2 text-zinc-500 transition-all ${
-                  currentPage === 'personnel'
-                    ? 'text-zinc-900 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50'
-                    : 'hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50'
-                }`}
-                href='#'
-                onClick={() => handleClick('personnel')}
-              >
-                Delivery Personnel
-              </Link>
-              <Link
-                className={`flex items-center gap-3 rounded-lg px-3 py-2 text-zinc-500 transition-all ${
-                  currentPage === 'reports'
-                    ? 'text-zinc-900 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50'
-                    : 'hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50'
-                }`}
-                href='#'
-                onClick={() => handleClick('reports')}
-              >
-                Reports
-              </Link>
             </nav>
           </div>
         </div>
@@ -104,8 +82,6 @@ export default function Wallet () {
       <div className='flex-1 overflow-auto py-2'>
         {currentPage === 'deliva' && <Deliver />}
         {currentPage === 'routes' && <Routes />}
-        {currentPage === 'personnel' && <Personnel />}
-        {currentPage === 'reports' && <Reports />}
       </div>
     </div>
   )
