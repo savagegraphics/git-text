@@ -96,10 +96,11 @@ const login = (props: Props) => {
 
                 <p className='mt-6 text-sm text-center text-gray-400'>
                   Don&#x27;t have an account yet?{' '}
-                  <Link href='/Auth/SignUp'
-                      className='text-blue-500 focus:outline-none focus:underline hover:underline'
-                    >
-                      Sign up
+                  <Link
+                    href='/Auth/SignUp'
+                    className='text-blue-500 focus:outline-none focus:underline hover:underline'
+                  >
+                    Sign up
                   </Link>
                   .
                 </p>

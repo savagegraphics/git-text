@@ -19,7 +19,7 @@ const HeroSection = () => {
         <div className='flex gap-3 flex-col sm:flex-row mt-7'>
           <Link
             className='rounded-xl bg-[#e4e7ea] py-3 px-8 text-[#0F2B48] text-sm sm:text-md'
-            href='../Merchant'
+            href='../Auth'
           >
             Start Shipping
           </Link>
