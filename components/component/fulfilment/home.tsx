@@ -124,7 +124,7 @@ export default function home () {
             <div className='p-4'>
               <h2 className='text-lg md:text-xl font-medium'>Welcome back!</h2>
               <p className='text-sm md:text-base'>
-                Here&apo;s what&apo;s happening with your business today.
+                Here&apo;s what&apo; s happening with your business today.
               </p>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4'>

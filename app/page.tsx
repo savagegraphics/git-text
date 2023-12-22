@@ -1,6 +1,7 @@
 'use client;'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import { config } from '@fortawesome/fontawesome-svg-core'
+import 'tailwindcss/tailwind.css'
 
 // Tell fontawesome
 config.autoAddCss = false
@@ -13,7 +14,6 @@ import InstallHappieMobile from './component/landing-page/InstallHappieMobile'
 import FAQSection from './component/landing-page/FAQSection'
 import TestimonialsSection from './component/landing-page/TestimonialsSection'
 import GetQuote from './component/landing-page/GetQuote'
-
 import { faqs } from '@/utils/constants'
 import { testimonials } from '@/utils/constants'
 
@@ -26,7 +26,7 @@ export default function Home () {
       <GetQuote />
       <InstallHappieMobile />
       <FAQSection faqs={faqs} />
-      <TestimonialsSection testimonials={testimonials} />
+      {/* <TestimonialsSection testimonials={testimonials} /> */}
       <Footer />
     </div>
   )

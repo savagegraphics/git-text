@@ -1,14 +1,9 @@
 import React from 'react'
-import TrackOne from '@/components/component/wallet/component'
 
 type Props = {}
 
 const page = (props: Props) => {
-  return (
-    <div>
-      <TrackOne />
-    </div>
-  )
+  return <div>Tracking.......</div>
 }
 
 export default page

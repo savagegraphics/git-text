@@ -44,9 +44,6 @@ const Transaction = (props: Props) => {
           </div>
           <div className='ml-auto'>
             <Button className='bg-[#0F2B48] text-white'>Add Funds</Button>
-            <Button className='ml-2' variant='outline'>
-              Withdraw Funds
-            </Button>
           </div>
         </header>
         <main className='flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-6'>
