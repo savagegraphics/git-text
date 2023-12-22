@@ -60,7 +60,7 @@ const Nav = () => {
           </ul>
           <Link
             className='rounded-lg text-white text-sm md:text-md bg-[#0F2B48] hover:bg-[#0F2B48]  hover:border-white hover:border-1 px-4 py-2 cursor-pointer text-center'
-            href='/auth/AuthNotification'
+            href='../Auth'
           >
             Get Started
           </Link>
